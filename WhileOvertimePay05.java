@@ -17,7 +17,7 @@ public class WhileOvertimePay05 {
             position = input.next();
             System.out.print("Employee"+(i+1)+" overtime hours = " );
             overtimeHours = input.nextInt();
-            i++; 
+            i++;
 
             if(position.equalsIgnoreCase("director")){
                 continue;
@@ -25,9 +25,12 @@ public class WhileOvertimePay05 {
                 overtimePay = overtimeHours*100000;
             }else if (position.equalsIgnoreCase("staff")){
                 overtimePay=overtimeHours*75000;
+            }else{
+                System.out.println("invalid position");
             }
             double totalOvertimePay = overtimePay;
             System.out.println("Total of Overtime Pay = " + totalOvertimePay);
+            
         }
 
 
