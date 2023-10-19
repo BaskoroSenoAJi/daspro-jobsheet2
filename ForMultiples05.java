@@ -7,6 +7,7 @@ public class ForMultiples05 {
         int multiple;
         int sum = 0;
         int counter = 0;
+        double average;
 
         System.out.println("Input the multiple = ");
         multiple = input05.nextInt();
@@ -17,8 +18,11 @@ public class ForMultiples05 {
                 counter++;
                 //System.out.print( i + "-")
 
+            
+
                 System.out.printf("There are %d number that are multiple of %d in range 1 to 50. \n " , counter , multiple);
                 System.out.printf(" The sum from all multiples of &d in range 1 s.d 50 is %d. \n" , multiple, sum);
+                System.out.printf("The average multiple number % form 1 to 50 is %.2f\\n" + multiple, sum);
             }
         }
     input05.close();
