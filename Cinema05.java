@@ -5,7 +5,7 @@ public class Cinema05 {
         Scanner input = new Scanner(System.in);
         String [][] audience = new String [4][2];
 
-        /* code sesuai jobsheet 
+        /* code sesuai jobsheet ( not fill the last element )
         audience [0][0] = "Amin" ;
         audience [0][1] = "Bena" ;
         audience [1][0] = "Candra" ; 
@@ -20,7 +20,7 @@ public class Cinema05 {
         System.out.printf("%s \t %s \n", audience [3][0], audience [3][1]);
         */
 
-        /*  modify code base on question 3 and 4
+        /*  modify code base on question 3 and 4 ( fill all elemnts)
         audience [0][0] = "Amin" ;
         audience [0][1] = "Bena" ;
         audience [1][0] = "Candra" ; 
@@ -37,7 +37,7 @@ public class Cinema05 {
         System.out.println(audience[3].length); 
         */
 
-        /*  modify the code base on question 5
+        /*  modify the code base on question 5 ( for loop )
         audience [0][0] = "Amin" ;
         audience [0][1] = "Bena" ;
         audience [1][0] = "Candra" ; 
@@ -53,7 +53,7 @@ public class Cinema05 {
         }
         */
 
-        // modify code base on question number 6 
+        /*  modify code base on question number 6 ( for each loop )
         audience [0][0] = "Amin" ;
         audience [0][1] = "Bena" ;
         audience [1][0] = "Candra" ; 
@@ -67,5 +67,48 @@ public class Cinema05 {
         for ( String [] rowAudience : audience ){
             System.out.println(" Length of row " + rowAudience.length);
         }
+        */
+
+        /*  modify code base on question number 10 ( add program code using for loop )
+        audience [0][0] = "Amin" ;
+        audience [0][1] = "Bena" ;
+        audience [1][0] = "Candra" ; 
+        audience [1][1] = "Dela" ;
+        audience [2][0] = "Eka" ;
+        audience [2][1] = "Farhan" ;
+        audience [3][0] = "Gisel" ;
+        audience [3][1] = "Hana" ;
+
+        System.out.println(audience.length);
+        for ( String [] rowAudience : audience ){
+            System.out.println(" Length of row " + rowAudience.length);
+        }
+
+        System.out.println(" Audiences in the row 3 : " );
+        for( int i = 0; i < audience [2].length; i++){
+            System.out.println(audience[2][i]);
+        }
+        */
+
+        /* modify code base on question number 11 ( add program code change to for each loop )
+        audience [0][0] = "Amin" ;
+        audience [0][1] = "Bena" ;
+        audience [1][0] = "Candra" ; 
+        audience [1][1] = "Dela" ;
+        audience [2][0] = "Eka" ;
+        audience [2][1] = "Farhan" ;
+        audience [3][0] = "Gisel" ;
+        audience [3][1] = "Hana" ;
+
+        System.out.println(audience.length);
+        for ( String [] rowAudience : audience ){
+            System.out.println(" Length of row " + rowAudience.length);
+        }
+
+        System.out.println(" Audiences in the row 3 : " );
+        for(String i : audience [2]){
+            System.out.println(i);
+        }
+        */
     }
 }
