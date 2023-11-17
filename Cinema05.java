@@ -20,7 +20,7 @@ public class Cinema05 {
         System.out.printf("%s \t %s \n", audience [3][0], audience [3][1]);
         */
 
-        /*  modify code base on question 3 and 4 ( fill all elemnts)
+        /* modify code base on question 3 and 4 ( fill all elemnts)
         audience [0][0] = "Amin" ;
         audience [0][1] = "Bena" ;
         audience [1][0] = "Candra" ; 
@@ -53,7 +53,7 @@ public class Cinema05 {
         }
         */
 
-        /*  modify code base on question number 6 ( for each loop )
+        /*   modify code base on question number 6 ( for each loop )
         audience [0][0] = "Amin" ;
         audience [0][1] = "Bena" ;
         audience [1][0] = "Candra" ; 
@@ -90,7 +90,7 @@ public class Cinema05 {
         }
         */
 
-        /* modify code base on question number 11 ( add program code change to for each loop )
+        /*  modify code base on question number 11 ( add program code change to for each loop )
         audience [0][0] = "Amin" ;
         audience [0][1] = "Bena" ;
         audience [1][0] = "Candra" ; 
